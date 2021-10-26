@@ -40,4 +40,4 @@ jobs:
           PASSWORD: ${{ secrets.SSH_PASS }}
         with:
           source: "./build"
-          target: "/home/status"
+          target: "/var/www"
